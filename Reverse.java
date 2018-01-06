@@ -162,5 +162,6 @@ public int frequency = 0;
     public void endDocument(){
        DBClass.close();
        Reverse.close();
+       title.close();
     }
 }
